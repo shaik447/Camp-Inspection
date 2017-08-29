@@ -8,20 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		38E0A0E41F55E714009A2F2C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E0A0E31F55E714009A2F2C /* AppDelegate.swift */; };
-		38E0A0E61F55E714009A2F2C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E0A0E51F55E714009A2F2C /* ViewController.swift */; };
 		38E0A0E91F55E714009A2F2C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38E0A0E71F55E714009A2F2C /* Main.storyboard */; };
 		38E0A0EB1F55E714009A2F2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38E0A0EA1F55E714009A2F2C /* Assets.xcassets */; };
 		38E0A0EE1F55E714009A2F2C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38E0A0EC1F55E714009A2F2C /* LaunchScreen.storyboard */; };
+		38E0A0FA1F55EA94009A2F2C /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E0A0F91F55EA94009A2F2C /* MainController.swift */; };
+		38E0A1001F55EBC2009A2F2C /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E0A0FB1F55EBC2009A2F2C /* AppConfig.swift */; };
+		38E0A1011F55EBC2009A2F2C /* CenterText-Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E0A0FC1F55EBC2009A2F2C /* CenterText-Image.swift */; };
+		38E0A1021F55EBC2009A2F2C /* CustomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E0A0FD1F55EBC2009A2F2C /* CustomImageView.swift */; };
+		38E0A1031F55EBC2009A2F2C /* StringSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E0A0FE1F55EBC2009A2F2C /* StringSize.swift */; };
+		38E0A1041F55EBC2009A2F2C /* UIView+Anchors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E0A0FF1F55EBC2009A2F2C /* UIView+Anchors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		38E0A0E01F55E714009A2F2C /* Camp Inspection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Camp Inspection.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		38E0A0E31F55E714009A2F2C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		38E0A0E51F55E714009A2F2C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		38E0A0E81F55E714009A2F2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		38E0A0EA1F55E714009A2F2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		38E0A0ED1F55E714009A2F2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		38E0A0EF1F55E714009A2F2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38E0A0F91F55EA94009A2F2C /* MainController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
+		38E0A0FB1F55EBC2009A2F2C /* AppConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
+		38E0A0FC1F55EBC2009A2F2C /* CenterText-Image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CenterText-Image.swift"; sourceTree = "<group>"; };
+		38E0A0FD1F55EBC2009A2F2C /* CustomImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomImageView.swift; sourceTree = "<group>"; };
+		38E0A0FE1F55EBC2009A2F2C /* StringSize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringSize.swift; sourceTree = "<group>"; };
+		38E0A0FF1F55EBC2009A2F2C /* UIView+Anchors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Anchors.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +64,51 @@
 		38E0A0E21F55E714009A2F2C /* Camp Inspection */ = {
 			isa = PBXGroup;
 			children = (
+				38E0A0F81F55E90D009A2F2C /* Helpers */,
+				38E0A0F71F55E902009A2F2C /* Controller */,
+				38E0A0F61F55E8F7009A2F2C /* View */,
+				38E0A0F51F55E8E7009A2F2C /* Model */,
 				38E0A0E31F55E714009A2F2C /* AppDelegate.swift */,
-				38E0A0E51F55E714009A2F2C /* ViewController.swift */,
 				38E0A0E71F55E714009A2F2C /* Main.storyboard */,
 				38E0A0EA1F55E714009A2F2C /* Assets.xcassets */,
 				38E0A0EC1F55E714009A2F2C /* LaunchScreen.storyboard */,
 				38E0A0EF1F55E714009A2F2C /* Info.plist */,
 			);
 			path = "Camp Inspection";
+			sourceTree = "<group>";
+		};
+		38E0A0F51F55E8E7009A2F2C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		38E0A0F61F55E8F7009A2F2C /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		38E0A0F71F55E902009A2F2C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				38E0A0F91F55EA94009A2F2C /* MainController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		38E0A0F81F55E90D009A2F2C /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				38E0A0FB1F55EBC2009A2F2C /* AppConfig.swift */,
+				38E0A0FC1F55EBC2009A2F2C /* CenterText-Image.swift */,
+				38E0A0FD1F55EBC2009A2F2C /* CustomImageView.swift */,
+				38E0A0FE1F55EBC2009A2F2C /* StringSize.swift */,
+				38E0A0FF1F55EBC2009A2F2C /* UIView+Anchors.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +184,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				38E0A0E61F55E714009A2F2C /* ViewController.swift in Sources */,
+				38E0A1001F55EBC2009A2F2C /* AppConfig.swift in Sources */,
+				38E0A0FA1F55EA94009A2F2C /* MainController.swift in Sources */,
 				38E0A0E41F55E714009A2F2C /* AppDelegate.swift in Sources */,
+				38E0A1011F55EBC2009A2F2C /* CenterText-Image.swift in Sources */,
+				38E0A1021F55EBC2009A2F2C /* CustomImageView.swift in Sources */,
+				38E0A1031F55EBC2009A2F2C /* StringSize.swift in Sources */,
+				38E0A1041F55EBC2009A2F2C /* UIView+Anchors.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
